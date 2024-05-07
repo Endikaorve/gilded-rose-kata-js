@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Gilded Rose kata in JavaScript",
   "scripts": {
-    "test": "node test/gilded_rose.test.js"
+    "test": "node test/text_test.js"
   },
   "keywords": [
     "kata",

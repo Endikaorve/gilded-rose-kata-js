@@ -1,8 +1,9 @@
+// *** NO TOCAR ***
 function createItem(name, sellIn, quality) {
   return { name, sellIn, quality };
 }
 
-function updateQuality(items) {
+function updateItems(items) {
   for (let i = 0; i < items.length; i++) {
     if (
       items[i].name != "Aged Brie" &&
@@ -57,5 +58,5 @@ function updateQuality(items) {
 
 module.exports = {
   createItem,
-  updateQuality,
+  updateItems,
 };
