@@ -4,6 +4,8 @@ function createItem(name, sellIn, quality) {
   return { name, sellIn, quality };
 }
 
+//--------- ⬇️ Modifica el código de abajo ⬇️ ------------//
+
 const items = [
   createItem("+5 Dexterity Vest", 10, 20),
   createItem("Aged Brie", 2, 0),
@@ -14,6 +16,8 @@ const items = [
   createItem("Backstage passes to a TAFKAL80ETC concert", 10, 49),
   createItem("Backstage passes to a TAFKAL80ETC concert", 5, 49),
 ];
+
+//--------- ⬆️ Modifica el código de arriba ⬆️ -----------//
 
 const days = Number(process.argv[2]) || 2;
 

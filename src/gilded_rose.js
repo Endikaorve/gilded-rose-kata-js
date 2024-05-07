@@ -1,4 +1,5 @@
 //--------- ⬇️ Modifica el código de abajo ⬇️ ------------//
+
 function updateItems(items) {
   for (let i = 0; i < items.length; i++) {
     if (
