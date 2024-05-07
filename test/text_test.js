@@ -17,8 +17,9 @@ const items = [
   createItem("Backstage passes to a TAFKAL80ETC concert", 5, 49),
 ];
 
-const days = Number(process.argv[2]) || 2;
 //--------- ⬆️ Modifica el código de arriba ⬆️ -----------//
+
+const days = Number(process.argv[2]) || 2;
 
 console.log("OMGHAI!");
 for (let day = 0; day < days + 1; day++) {
