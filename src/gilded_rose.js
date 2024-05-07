@@ -1,8 +1,4 @@
-// *** NO TOCAR ***
-function createItem(name, sellIn, quality) {
-  return { name, sellIn, quality };
-}
-
+//--------- ⬇️ Modifica el código de abajo ⬇️ ------------//
 function updateItems(items) {
   for (let i = 0; i < items.length; i++) {
     if (
@@ -56,7 +52,8 @@ function updateItems(items) {
   return items;
 }
 
+//--------- ⬆️ Modifica el código de arriba ⬆️ -----------//
+
 module.exports = {
-  createItem,
   updateItems,
 };

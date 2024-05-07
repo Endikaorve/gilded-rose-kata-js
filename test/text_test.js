@@ -1,4 +1,8 @@
-const { updateItems, createItem } = require("../src/gilded_rose");
+const { updateItems } = require("../src/gilded_rose");
+
+function createItem(name, sellIn, quality) {
+  return { name, sellIn, quality };
+}
 
 const items = [
   createItem("+5 Dexterity Vest", 10, 20),
@@ -9,9 +13,6 @@ const items = [
   createItem("Backstage passes to a TAFKAL80ETC concert", 15, 20),
   createItem("Backstage passes to a TAFKAL80ETC concert", 10, 49),
   createItem("Backstage passes to a TAFKAL80ETC concert", 5, 49),
-
-  // This Conjured item does not work properly yet
-  createItem("Conjured Mana Cake", 3, 6),
 ];
 
 const days = Number(process.argv[2]) || 2;
